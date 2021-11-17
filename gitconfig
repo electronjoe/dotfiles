@@ -1,3 +1,6 @@
+[user]
+  name = Scott Moeller
+  email = electronjoe@gmail.com
 [init]
   defaultBranch = main
   templatedir = ~/.git_template
@@ -14,6 +17,7 @@
   pf = push --force-with-lease
   st = status
 [core]
+  editor = vim
   excludesfile = ~/.gitignore
   autocrlf = input
 [merge]
